@@ -1,0 +1,17 @@
+Name: David Piatt
+Date: 3/4/17
+Class: CSE 2421 m/w 4:15p
+Time: 5 hours. I had to look up a lot of things about assembly and still didn't feel comfortable with this. I spent a lot of time in gdb steppin gthrough things and printing out values and I still don't have a good grasp of what's goin on. I wish we had a couple more days to get it done and ask questions. 
+
+I have neither given nor received assistance on this assignment
+
+The loop $ instruction decrements esi. It dumps to .p if eax isn't 0 else it sets ebx to 0 and eax to 1. The purpose of the loop is to make the text visible to see. We don't want it to go too fast and not see the shark fin moving. I think that's why they use the large nuber.
+
+values of esi:
+#1: 0xfffffff
+#2: 0xffffffe
+The value of esi immediately before the final int 0x80 is: 0
+
+esi is the source index register. It's used for string and memory copying. I think it is being used to copy in data to run progress the loop. Ok I'm pretty sure it's used to control the flow of the ^ amongst the ~ characters. 
+
+
